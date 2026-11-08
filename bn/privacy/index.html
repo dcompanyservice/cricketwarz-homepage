@@ -47,7 +47,7 @@
 <p class="note">এই পৃষ্ঠাটি ইংরেজিতে দেখানো হয়েছে। ইংরেজি সংস্করণটিই বাধ্যতামূলক (চূড়ান্ত) সংস্করণ।</p>
 <div class="ltr" lang="en" dir="ltr">
 <h2>Privacy Policy (English)</h2>
-<p class="meta">Version 2026-11-08 &middot; Effective date: November 8, 2026</p>
+<p class="meta">Version 2026-11-09 &middot; Effective date: November 9, 2026</p>
 <p>Dcompany ("dcompanyservice", "we", "us") respects your privacy. This Privacy Policy explains what information we process in our mobile game Cricketwarz and on this website (cricketwarz.com), why, and what your choices are.</p>
 
 <h2>1. Operator</h2>
@@ -64,7 +64,7 @@
 <tr><td>Account number and nickname</td><td>The account number we assign to you, and your nickname (set automatically to a name such as "Player123456"; you can change it)</td><td>Identifying your account; showing you to your opponents</td></tr>
 <tr><td>Linked Google or Apple account (optional)</td><td>Only if you choose Settings &gt; Link Account: the account identifier issued by Google or Apple (a fixed ID for our app) and, if provided, the email address. With Apple, a token used to revoke the link when you unlink or delete your account. We never receive your password.</td><td>Letting you continue the same game account on a new device</td></tr>
 <tr><td>Game data</td><td>In-game currencies (coins and gems), the characters you own with their levels, stars and shards, your batting order, match records and results, battle points, your club (name, role and contribution), mailbox items, and counters for daily attendance and ad chests</td><td>Providing the game, saving your progress and matching you with opponents</td></tr>
-<tr><td>Purchases (once in-app purchases are available)</td><td>The purchase token, order ID, product and time of purchase provided by Google Play, and your purchase history. We never receive your card or other payment details.</td><td>Verifying purchases, delivering items, restoring purchases and handling refunds</td></tr>
+<tr><td>Purchases</td><td>The purchase token or transaction ID, order ID, product, time of purchase and store country provided by Google Play or the App Store, and your purchase history. We never receive your card or other payment details.</td><td>Verifying purchases, delivering items, restoring purchases and handling refunds</td></tr>
 <tr><td>Login time and server logs</td><td>The time you log in, your IP address and technical request information recorded in our server logs</td><td>Security, preventing abuse and troubleshooting</td></tr>
 <tr><td>Crash reports</td><td>When the game hits an error, the app sends the app version, the operating system and the error text, linked to your account</td><td>Finding and fixing errors</td></tr>
 </table>
@@ -74,9 +74,11 @@
 <h2>3. Advertising</h2>
 <p>Cricketwarz offers optional rewarded ads through Google AdMob. An ad plays only when you tap a button to watch one for a reward; you can play the game without watching any ads.</p>
 <p>Google AdMob may collect and process your device's advertising ID, approximate location derived from your IP address, device information and ad interactions under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. In the European Economic Area, the United Kingdom and Switzerland, we ask for your consent through Google's consent tool (User Messaging Platform) before personalized ads are shown. You receive the same rewards whether or not you allow personalized ads. You can reset or delete your advertising ID in your Android settings.</p>
+<p><strong>Ad measurement (Google Firebase Analytics):</strong> To measure whether an ad led to installing and playing the game, the Android app uses Google Firebase Analytics. It sends app-usage events such as first open, sessions, finished matches (game mode, ground and result), in-app purchases and ad impressions, together with the Firebase app instance ID, device model, operating system, app version and an approximate country/region derived from your IP address, to Google. Your advertising ID is used for ad measurement only where allowed: in regions that require consent (such as the EU and the UK) only according to your choice on the consent screen. We do not send your name, email address, nickname or game account number. Processing follows the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy information</a>. You can reset or delete your advertising ID in your Android settings.</p>
 
 <h2>4. In-app purchases</h2>
-<p>We plan to offer a premium pass (30 days per purchase; up to 90 days can be held at a time), gem packs and a one-time growth pack as in-app purchases. Payments are processed by Google Play under Google's own terms and privacy policy. We receive only the information needed to verify and deliver your purchase (purchase token, order ID, product and time of purchase), never your card details.</p>
+<p>Cricketwarz offers a premium pass (30 days per purchase; up to 90 days can be held at a time; it does not renew automatically), gem packs and a one-time growth pack as in-app purchases. Payments are processed by Google Play (Android) or the App Store (iOS) under their own terms and privacy policies. We receive only the information needed to verify and deliver your purchase (purchase token or transaction ID, order ID, product, time of purchase and store country), never your card or other payment details.</p>
+<p>So that a purchase is delivered to the right game account, the game gives the store a scrambled (hashed) form of your account number. It does not contain your name or contact details. If a purchase is refunded, cancelled or charged back, we take back what it granted, as described in our <a href="/bn/terms/">Terms of Service</a>.</p>
 
 <h2>5. Website</h2>
 <p>This website is a static information site. We do not ask you to create an account and we do not set cookies.</p>
@@ -88,7 +90,7 @@
 <ul>
 <li>Other players can see your nickname, your characters and match results during and after a match, and, if you join a club, your nickname, level, role and contribution in that club.</li>
 <li>Service providers who process information on our behalf (section 7).</li>
-<li>Google, for app distribution, payments and purchase verification (Google Play) and for advertising (AdMob), as described in sections 3 and 4.</li>
+<li>Google, for app distribution, payments and purchase verification (Google Play) for advertising (AdMob) and for ad measurement (Firebase Analytics), as described in sections 3 and 4.</li>
 <li>Authorities, when required by applicable law.</li>
 </ul>
 
@@ -97,27 +99,30 @@
 <tr><th>Provider</th><th>Task</th></tr>
 <tr><td>iwinV (Smileserv Co., Ltd.)</td><td>Game servers and database (Republic of Korea)</td></tr>
 <tr><td>Cloudflare, Inc.</td><td>Domain name service (DNS), storage and delivery of game files (R2), and forwarding of email sent to contact@cricketwarz.com</td></tr>
-<tr><td>Google LLC</td><td>App distribution and payment processing (Google Play), advertising (AdMob)</td></tr>
+<tr><td>Google LLC</td><td>App distribution and payment processing (Google Play), advertising (AdMob), ad measurement (Firebase Analytics), optional account linking (Google sign-in)</td></tr>
+<tr><td>Apple Inc.</td><td>Optional account linking (Sign in with Apple) and, on iOS, app distribution and payment processing (App Store)</td></tr>
 <tr><td>GitHub, Inc.</td><td>Hosting of this website (GitHub Pages)</td></tr>
 </table>
 
 <h2>8. Retention and deletion</h2>
 <table>
 <tr><th>Information</th><th>Retention period</th></tr>
-<tr><td>Account and game data</td><td>As long as your account exists. After you request deletion and we confirm it, there is a 7-day grace period, and then the data is permanently deleted (in any case within 30 days of your request)</td></tr>
-<tr><td>Server logs (including IP addresses) and crash reports</td><td>90 days</td></tr>
-<tr><td>Purchase records</td><td>5 years from the date of purchase, as required by Korea's Act on the Consumer Protection in Electronic Commerce, even after your account is deleted. They are kept separately from your other data</td></tr>
+<tr><td>Account and game data</td><td>As long as your account exists. After you request deletion (in the game or by email) there is a 7-day grace period, during which you can cancel the request in the game; then the data is permanently deleted. Email requests are completed within 30 days</td></tr>
+<tr><td>Scrambled (hashed) value of a linked Google or Apple account</td><td>Kept after account deletion so that the account-linking reward cannot be claimed twice. It cannot be turned back into your Google or Apple account details</td></tr>
+<tr><td>Records of actions by our support staff</td><td>As long as needed for security and handling disputes</td></tr>
+<tr><td>Server logs (including IP addresses) and crash reports</td><td>90 days. When an account is deleted, its account number is removed from crash reports</td></tr>
+<tr><td>Purchase records, including the record of paid gems bought and used</td><td>5 years from the date of purchase, as required by Korea's Act on the Consumer Protection in Electronic Commerce, even after your account is deleted. They are kept separately from your other data</td></tr>
 <tr><td>Emails you send us</td><td>As long as needed to answer and handle your request</td></tr>
 <tr><td>Website page counts</td><td>Kept without a time limit, because only daily totals are stored and they contain no personal information</td></tr>
 </table>
-<p>How to delete your account: see <a href="/bn/delete-account/">Delete your Cricketwarz account</a>. Account deletion in the game (Settings &gt; Delete account) is coming soon; email requests work now. Electronic data is deleted using methods that prevent it from being restored.</p>
+<p>How to delete your account: in the game, go to Settings &gt; Delete account, or request deletion by email as described on <a href="/bn/delete-account/">Delete your Cricketwarz account</a>. Electronic data is deleted using methods that prevent it from being restored.</p>
 
 <h2>9. Security</h2>
 <p>We use reasonable technical and organizational measures to protect your information, including encrypted connections between the game and our servers and restricted access to our database. No method of transmission or storage is completely secure, but we work to protect your information.</p>
 
 <h2>10. Your rights</h2>
 <p>Depending on where you live, you may have the right to access, correct, delete, restrict or object to the processing of your personal information, to receive a copy of it, and to withdraw consent at any time. To make a request, email us with your nickname and account number (shown in the game settings). We respond without undue delay, and within one month where the GDPR applies. You may also lodge a complaint with your local data protection authority.</p>
-<p><strong>Users in India:</strong> under the Digital Personal Data Protection Act, 2023, you can ask for a summary of the personal data we process about you, ask us to correct, complete, update or erase it, and nominate another person to exercise these rights on your behalf in the event of your death or incapacity. You can raise any grievance with our grievance contact (section 14) at <a href="mailto:contact@cricketwarz.com">contact@cricketwarz.com</a>; we will reply within 30 days. If you are not satisfied with our reply, you may approach the Data Protection Board of India.</p>
+<p><strong>Users in India:</strong> under the Digital Personal Data Protection Act, 2023, you can ask for a summary of the personal data we process about you, ask us to correct, complete, update or erase it, and nominate another person to exercise these rights on your behalf in the event of your death or incapacity. You can raise any grievance with our grievance officer (section 14) at <a href="mailto:contact@cricketwarz.com">contact@cricketwarz.com</a>; we acknowledge it within 48 hours and resolve it within one month. If you are not satisfied with our reply, you may approach the Data Protection Board of India.</p>
 
 <h2>11. Children</h2>
 <p>Cricketwarz is not directed at children under 13. If the law of your country requires the consent of a parent or guardian for a minor to use online services or make purchases, please use Cricketwarz only with that consent. If you believe a child has given us personal information without the required consent, please contact us and we will delete it.</p>
@@ -126,16 +131,17 @@
 <p>Our game servers and database are located in the Republic of Korea. If you use Cricketwarz from outside Korea, your information is transferred to and processed in Korea. For users in the European Union, the European Commission has recognized Korea as providing an adequate level of data protection (adequacy decision of December 17, 2021). Google, Cloudflare and GitHub may process information in other countries, including the United States, under their own safeguards.</p>
 
 <h2>13. Changes to this policy</h2>
-<p>We may update this Privacy Policy when the service or the law changes (for example, when in-app purchases or in-game account deletion become available). Each version is identified by the effective date at the top of this page. We will announce significant changes in the game or on this website before they take effect.</p>
+<p>We may update this Privacy Policy when the service or the law changes (for example, when we add or change features). Each version is identified by the effective date at the top of this page. We will announce significant changes in the game or on this website before they take effect.</p>
 
 <h2>14. Privacy and grievance contact</h2>
 <div class="info">
-<p><strong>Privacy officer / grievance contact:</strong> Dcompany Privacy Team</p>
+<p><strong>Privacy officer / grievance officer:</strong> Donggwan Lee (Representative, Dcompany)</p>
 <p><strong>Company:</strong> Dcompany</p>
 <p><strong>Email:</strong> <a href="mailto:contact@cricketwarz.com">contact@cricketwarz.com</a></p>
 <p><strong>Phone:</strong> +82-70-4259-0338</p>
 <p><strong>Address:</strong> 301-A047, 3F, 10 Seochonsangga 2-gil, Siheung-si, Gyeonggi-do 15036, Republic of Korea</p>
 </div>
+<p>We acknowledge every complaint or grievance within 48 hours of receiving it and resolve it within one month.</p>
 <p>For the conditions of use of the game, see our <a href="/bn/terms/">Terms of Service</a>.</p>
 </div>
   </div>
